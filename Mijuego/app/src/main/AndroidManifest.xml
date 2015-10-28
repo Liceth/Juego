@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="licethovalles.administrador.mijuego" >
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/memorama"
+        android:label="Memorama"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="Memorama" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity2Activity"
+            android:label="Memorama" >
+        </activity>
+        <activity
+            android:name=".facil"
+            android:label="@string/title_activity_facil" >
+        </activity>
+        <activity
+            android:name=".dificil"
+            android:label="@string/title_activity_dificil" >
+        </activity>
+        <activity
+            android:name=".medio"
+            android:label="@string/title_activity_medio" >
+        </activity>
+        <activity
+            android:name=".historial"
+            android:label="@string/title_activity_historial" >
+        </activity>
+    </application>
+
+</manifest>
